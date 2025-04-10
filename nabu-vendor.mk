@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/nabu/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/nabu/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/xiaomi/nabu/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/nabu/proprietary/system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/nabu/proprietary/system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/nabu/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
@@ -183,8 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nabu/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/nabu/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/nabu/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
-    vendor/xiaomi/nabu/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/xiaomi/nabu/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/xiaomi/nabu/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/xiaomi/nabu/proprietary/vendor/etc/qdcm_calib_data_xiaomi_36_02_0b_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_36_02_0b_video_mode_dual_dsi_cphy_panel.xml \
     vendor/xiaomi/nabu/proprietary/vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml \
